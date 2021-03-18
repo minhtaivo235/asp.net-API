@@ -17,5 +17,7 @@
 	Update-Database -> build db
 11. install CodeGeneration.Design + CodeGeneration.Utils
 12. create Controller
-	
+13. add cors in Startup.cs
+	services.AddCors() in ConfigureServices
+	app.UseCors in Configure
 	
